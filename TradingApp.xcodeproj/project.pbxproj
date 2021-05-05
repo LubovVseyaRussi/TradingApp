@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0425375E2634130100B8B0F3 /* Symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = 0425375D2634130100B8B0F3 /* Symbols.json */; };
+		0425376326341B8100B8B0F3 /* SymbolEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425376226341B8100B8B0F3 /* SymbolEntity.swift */; };
+		0425376726341DC400B8B0F3 /* SymbolsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425376626341DC400B8B0F3 /* SymbolsProtocols.swift */; };
+		0425376A26341F1500B8B0F3 /* SymbolsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425376926341F1500B8B0F3 /* SymbolsInteractor.swift */; };
+		042537712634233300B8B0F3 /* SymbolsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042537702634233300B8B0F3 /* SymbolsRouter.swift */; };
+		042537752634249F00B8B0F3 /* SymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042537742634249F00B8B0F3 /* SymbolsViewController.swift */; };
+		0425377B2634265200B8B0F3 /* SymbolsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425377A2634265200B8B0F3 /* SymbolsPresenter.swift */; };
+		044678362642E6DE007F1518 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044678352642E6DE007F1518 /* CustomTableViewCell.swift */; };
 		049F4C612631E47D0068DF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F4C602631E47D0068DF5D /* AppDelegate.swift */; };
-		049F4C632631E47D0068DF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F4C622631E47D0068DF5D /* SceneDelegate.swift */; };
-		049F4C652631E47D0068DF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049F4C642631E47D0068DF5D /* ViewController.swift */; };
-		049F4C682631E47D0068DF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F4C662631E47D0068DF5D /* Main.storyboard */; };
 		049F4C6A2631E47E0068DF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049F4C692631E47E0068DF5D /* Assets.xcassets */; };
 		049F4C6D2631E47E0068DF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049F4C6B2631E47E0068DF5D /* LaunchScreen.storyboard */; };
+		967F466F83225CA4D3395F4E /* Pods_TradingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAC70D9D82E79933042A5E8 /* Pods_TradingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0425375D2634130100B8B0F3 /* Symbols.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Symbols.json; sourceTree = "<group>"; };
+		0425376226341B8100B8B0F3 /* SymbolEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEntity.swift; sourceTree = "<group>"; };
+		0425376626341DC400B8B0F3 /* SymbolsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsProtocols.swift; sourceTree = "<group>"; };
+		0425376926341F1500B8B0F3 /* SymbolsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsInteractor.swift; sourceTree = "<group>"; };
+		042537702634233300B8B0F3 /* SymbolsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRouter.swift; sourceTree = "<group>"; };
+		042537742634249F00B8B0F3 /* SymbolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsViewController.swift; sourceTree = "<group>"; };
+		0425377A2634265200B8B0F3 /* SymbolsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsPresenter.swift; sourceTree = "<group>"; };
+		044678352642E6DE007F1518 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		049F4C5D2631E47D0068DF5D /* TradingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049F4C602631E47D0068DF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049F4C622631E47D0068DF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		049F4C642631E47D0068DF5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		049F4C672631E47D0068DF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		049F4C692631E47E0068DF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049F4C6C2631E47E0068DF5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049F4C6E2631E47E0068DF5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAC70D9D82E79933042A5E8 /* Pods_TradingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED7CE75A972C96D89A426A4 /* Pods-TradingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingApp.release.xcconfig"; path = "Target Support Files/Pods-TradingApp/Pods-TradingApp.release.xcconfig"; sourceTree = "<group>"; };
+		E4E239924B8D2A7C657D85D0 /* Pods-TradingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingApp.debug.xcconfig"; path = "Target Support Files/Pods-TradingApp/Pods-TradingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967F466F83225CA4D3395F4E /* Pods_TradingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				049F4C5F2631E47D0068DF5D /* TradingApp */,
 				049F4C5E2631E47D0068DF5D /* Products */,
+				04BDA48501C27DAF76DCF66F /* Pods */,
+				4557C5D08F7741051BD95E8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,53 @@
 		049F4C5F2631E47D0068DF5D /* TradingApp */ = {
 			isa = PBXGroup;
 			children = (
+				0425375D2634130100B8B0F3 /* Symbols.json */,
 				049F4C602631E47D0068DF5D /* AppDelegate.swift */,
-				049F4C622631E47D0068DF5D /* SceneDelegate.swift */,
-				049F4C642631E47D0068DF5D /* ViewController.swift */,
-				049F4C662631E47D0068DF5D /* Main.storyboard */,
+				049F4C752631EF760068DF5D /* Modules */,
 				049F4C692631E47E0068DF5D /* Assets.xcassets */,
 				049F4C6B2631E47E0068DF5D /* LaunchScreen.storyboard */,
 				049F4C6E2631E47E0068DF5D /* Info.plist */,
 			);
 			path = TradingApp;
+			sourceTree = "<group>";
+		};
+		049F4C752631EF760068DF5D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				049F4C762631EF9A0068DF5D /* Watchlist */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		049F4C762631EF9A0068DF5D /* Watchlist */ = {
+			isa = PBXGroup;
+			children = (
+				0425376626341DC400B8B0F3 /* SymbolsProtocols.swift */,
+				0425376226341B8100B8B0F3 /* SymbolEntity.swift */,
+				042537702634233300B8B0F3 /* SymbolsRouter.swift */,
+				0425376926341F1500B8B0F3 /* SymbolsInteractor.swift */,
+				0425377A2634265200B8B0F3 /* SymbolsPresenter.swift */,
+				042537742634249F00B8B0F3 /* SymbolsViewController.swift */,
+				044678352642E6DE007F1518 /* CustomTableViewCell.swift */,
+			);
+			path = Watchlist;
+			sourceTree = "<group>";
+		};
+		04BDA48501C27DAF76DCF66F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4E239924B8D2A7C657D85D0 /* Pods-TradingApp.debug.xcconfig */,
+				CED7CE75A972C96D89A426A4 /* Pods-TradingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4557C5D08F7741051BD95E8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC70D9D82E79933042A5E8 /* Pods_TradingApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 049F4C712631E47E0068DF5D /* Build configuration list for PBXNativeTarget "TradingApp" */;
 			buildPhases = (
+				D26FF0DB39C26527174650BF /* [CP] Check Pods Manifest.lock */,
 				049F4C592631E47D0068DF5D /* Sources */,
 				049F4C5A2631E47D0068DF5D /* Frameworks */,
 				049F4C5B2631E47D0068DF5D /* Resources */,
+				85CB26D76CAAB9A1074881A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +181,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0425375E2634130100B8B0F3 /* Symbols.json in Resources */,
 				049F4C6D2631E47E0068DF5D /* LaunchScreen.storyboard in Resources */,
 				049F4C6A2631E47E0068DF5D /* Assets.xcassets in Resources */,
-				049F4C682631E47D0068DF5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85CB26D76CAAB9A1074881A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradingApp/Pods-TradingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26FF0DB39C26527174650BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		049F4C592631E47D0068DF5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049F4C652631E47D0068DF5D /* ViewController.swift in Sources */,
+				044678362642E6DE007F1518 /* CustomTableViewCell.swift in Sources */,
 				049F4C612631E47D0068DF5D /* AppDelegate.swift in Sources */,
-				049F4C632631E47D0068DF5D /* SceneDelegate.swift in Sources */,
+				0425377B2634265200B8B0F3 /* SymbolsPresenter.swift in Sources */,
+				0425376A26341F1500B8B0F3 /* SymbolsInteractor.swift in Sources */,
+				042537712634233300B8B0F3 /* SymbolsRouter.swift in Sources */,
+				0425376326341B8100B8B0F3 /* SymbolEntity.swift in Sources */,
+				042537752634249F00B8B0F3 /* SymbolsViewController.swift in Sources */,
+				0425376726341DC400B8B0F3 /* SymbolsProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		049F4C662631E47D0068DF5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049F4C672631E47D0068DF5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049F4C6B2631E47E0068DF5D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +379,7 @@
 		};
 		049F4C722631E47E0068DF5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4E239924B8D2A7C657D85D0 /* Pods-TradingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		049F4C732631E47E0068DF5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED7CE75A972C96D89A426A4 /* Pods-TradingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

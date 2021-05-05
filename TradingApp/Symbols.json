@@ -1,0 +1,40 @@
+{
+  "Symbols" : [
+      {
+          "Name" : "US",
+          "Description" : "United States",
+          "Price" : "3814.77",
+          "Perc change" : "-0.13%",
+          "Abs change" : "-4.99",
+          "Market status" : "open",
+          "Logo" : "https://s3-symbol-logo.tradingview.com/country/US--96.webp"
+      },
+      {
+          "Name" : "RU",
+          "Description" : "Russia",
+          "Price" : "12876.9",
+          "Perc change" : "+0.07%",
+          "Abs change" : "+9.8",
+          "Market status" : "open",
+          "Logo" : "https://s3-symbol-logo.tradingview.com/country/RU--96.webp"
+      },
+      {
+          "Name" : "UK",
+          "Description" : "United Kingdom",
+          "Price" : "100.00",
+          "Perc change" : "-3.9%",
+          "Abs change" : "-36.77",
+          "Market status" : "closed",
+          "Logo" : "https://s3-symbol-logo.tradingview.com/country/UK--96.webp"
+      },
+      {
+          "Name" : "GOLD",
+          "Description" : "Gold",
+          "Price" : "5287.6",
+          "Perc change" : "+0.85%",
+          "Abs change" : "+38.8",
+          "Market status" : "closed",
+          "Logo" : "https://s3-symbol-logo.tradingview.com/metal/gold--96.webp"
+      }
+   ]
+}
